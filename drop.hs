@@ -15,3 +15,16 @@ returnLastWord s = print newString
 
 thirdLetter s = print thirdLetter
   where thirdLetter = s !! 2
+
+sameString i = print letter
+  where letter = "jason" !! i
+
+rvrs s = print third
+  where wordArray = splitOn " " s
+        newString = ""
+        first = newString ++ last wordArray
+        second = newString ++ last wordArray
+        third = newString ++ last wordArray
+
+
+
