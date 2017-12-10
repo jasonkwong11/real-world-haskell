@@ -20,4 +20,3 @@ module GreetIfCool1 where
       putStrLn "pshhhh"
     where cool v = v == "downright frosty yo"
 
-    
